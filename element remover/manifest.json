@@ -12,6 +12,12 @@
         "default_title": "Remove"
     },
     "background": {
-        "scripts": ["background.js"]
-    }
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+      ]
 }
