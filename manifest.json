@@ -1,5 +1,6 @@
 {
     "name": "web hammer",
+    "description": "Start hammering!",
     "version": "1.0",
     "manifest_version": 2,
     "content_scripts": [
@@ -20,8 +21,6 @@
         "persistent": true
     },
     "permissions": [
-        "https://*/*",
-        "http://*/*",
-        "tabs"
+        "activeTab"
     ]
 }
