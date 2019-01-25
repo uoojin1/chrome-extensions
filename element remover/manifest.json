@@ -8,8 +8,12 @@
             "js": ["content.js"]
         }
     ],
+    "icons": {
+        "128": "images/hammer.png"
+    },
     "browser_action": {
-        "default_title": "Remove"
+        "default_title": "Remove",
+        "default_icon": "images/hammer.png"
     },
     "background": {
         "scripts": ["background.js"],
@@ -19,5 +23,5 @@
         "https://*/*",
         "http://*/*",
         "tabs"
-      ]
+    ]
 }
